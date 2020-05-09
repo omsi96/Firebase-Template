@@ -42,14 +42,7 @@ struct ContentView: View {
                         Text("Sign Up")
                     }
             }.tag(4)
-            
-            iPhoneCreater()
-                .tabItem {
-                    VStack{
-                        Image(systemName: "phone.circle.fill")
-                        Text("Create iPhone")
-                    }
-            }.tag(5)
+
         }
     }
 }

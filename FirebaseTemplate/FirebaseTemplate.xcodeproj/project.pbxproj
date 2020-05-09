@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D26B2C2A246648E800470CA2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705B246639E9005E16A3 /* SignUp.swift */; };
-		D26B2C2C2466505300470CA2 /* iPhoneCreater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2C2B2466505300470CA2 /* iPhoneCreater.swift */; };
-		D26B2C2E2466505F00470CA2 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2C2D2466505F00470CA2 /* iPhone.swift */; };
 		D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD324662807005E16A3 /* AppDelegate.swift */; };
 		D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD524662807005E16A3 /* SceneDelegate.swift */; };
 		D2C26FD824662808005E16A3 /* CreateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD724662808005E16A3 /* CreateItem.swift */; };
@@ -63,8 +61,6 @@
 /* Begin PBXFileReference section */
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
-		D26B2C2B2466505300470CA2 /* iPhoneCreater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneCreater.swift; sourceTree = "<group>"; };
-		D26B2C2D2466505F00470CA2 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
 		D2C26FD024662807005E16A3 /* FirebaseTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C26FD324662807005E16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD524662807005E16A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -199,7 +195,6 @@
 				D2C2701B246629D6005E16A3 /* GoogleService-Info.plist */,
 				D2C26FD324662807005E16A3 /* AppDelegate.swift */,
 				D2C26FD524662807005E16A3 /* SceneDelegate.swift */,
-				D26B2C2B2466505300470CA2 /* iPhoneCreater.swift */,
 				D2C2705824662FDE005E16A3 /* Sample Views */,
 				D2C2703E24662C5A005E16A3 /* Networking */,
 				D2C2705324662CAA005E16A3 /* Models */,
@@ -295,7 +290,6 @@
 			children = (
 				D2C2705124662C9A005E16A3 /* User.swift */,
 				D2C2705624662F3F005E16A3 /* Item.swift */,
-				D26B2C2D2466505F00470CA2 /* iPhone.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -445,10 +439,8 @@
 				D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */,
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
 				D2C2705A246631E2005E16A3 /* ContentView.swift in Sources */,
-				D26B2C2C2466505300470CA2 /* iPhoneCreater.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
 				D2C26FD824662808005E16A3 /* CreateItem.swift in Sources */,
-				D26B2C2E2466505F00470CA2 /* iPhone.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
