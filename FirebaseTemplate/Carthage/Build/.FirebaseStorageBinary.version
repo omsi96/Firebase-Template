@@ -1,0 +1,22 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "6.24.0",
+  "iOS" : [
+    {
+      "name" : "FirebaseStorage",
+      "hash" : "0991345ef3bcd96d146936d01223e91140534ef2559b1bb611555eead0960bcd"
+    },
+    {
+      "name" : "GTMSessionFetcher",
+      "hash" : "d881e7742b2cbe598e14c3c69dd1385438fb1758f3b78428eb0bdeadf37b08c6"
+    }
+  ]
+}
