@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D26B2C2A246648E800470CA2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705B246639E9005E16A3 /* SignUp.swift */; };
+		D26B2C39246934C900470CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D26B2C38246934C900470CA2 /* GoogleService-Info.plist */; };
 		D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD324662807005E16A3 /* AppDelegate.swift */; };
 		D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD524662807005E16A3 /* SceneDelegate.swift */; };
 		D2C26FD824662808005E16A3 /* CreateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD724662808005E16A3 /* CreateItem.swift */; };
@@ -16,7 +17,6 @@
 		D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FDE24662809005E16A3 /* LaunchScreen.storyboard */; };
 		D2C27013246628E0005E16A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C27012246628E0005E16A3 /* libsqlite3.tbd */; };
 		D2C27015246628E5005E16A3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C27014246628E5005E16A3 /* libc++.tbd */; };
-		D2C2701C246629D6005E16A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C2701B246629D6005E16A3 /* GoogleService-Info.plist */; };
 		D2C2701D24662A79005E16A3 /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C26FE8246628B8005E16A3 /* gRPC-Core.framework */; };
 		D2C2701E24662A79005E16A3 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C26FE9246628B8005E16A3 /* GoogleDataTransport.framework */; };
 		D2C2702024662A79005E16A3 /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C26FEB246628B8005E16A3 /* GoogleDataTransportCCTSupport.framework */; };
@@ -61,6 +61,7 @@
 /* Begin PBXFileReference section */
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		D26B2C38246934C900470CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D2C26FD024662807005E16A3 /* FirebaseTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C26FD324662807005E16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD524662807005E16A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,7 +93,6 @@
 		D2C26FFC246628B8005E16A3 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		D2C27012246628E0005E16A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D2C27014246628E5005E16A3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		D2C2701B246629D6005E16A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D2C2703324662BCD005E16A3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D2C2703624662C5A005E16A3 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		D2C2703724662C5A005E16A3 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
@@ -192,7 +192,7 @@
 		D2C26FD224662807005E16A3 /* FirebaseTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D2C2701B246629D6005E16A3 /* GoogleService-Info.plist */,
+				D26B2C38246934C900470CA2 /* GoogleService-Info.plist */,
 				D2C26FD324662807005E16A3 /* AppDelegate.swift */,
 				D2C26FD524662807005E16A3 /* SceneDelegate.swift */,
 				D2C2705824662FDE005E16A3 /* Sample Views */,
@@ -367,9 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */,
-				D2C2701C246629D6005E16A3 /* GoogleService-Info.plist in Resources */,
 				D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */,
 				D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */,
+				D26B2C39246934C900470CA2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +598,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Omsi.FlyMeToTheMoon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khatma.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -630,7 +630,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Omsi.FlyMeToTheMoon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khatma.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

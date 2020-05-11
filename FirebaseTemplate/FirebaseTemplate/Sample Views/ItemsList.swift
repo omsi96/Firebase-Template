@@ -22,7 +22,7 @@ struct ItemsList: View {
     
     func getListOfItems()
     {
-        Networking.getListOf(COLLECTION_NAME: "myItems") { (items: [Item]) in
+        Networking.getListOf(COLLECTION_NAME: "store") { (items: [Item]) in
             self.items = items
         }
     }
