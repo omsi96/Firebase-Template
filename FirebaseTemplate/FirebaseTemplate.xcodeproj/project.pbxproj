@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D26B2C2A246648E800470CA2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705B246639E9005E16A3 /* SignUp.swift */; };
 		D26B2C39246934C900470CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D26B2C38246934C900470CA2 /* GoogleService-Info.plist */; };
+		D26B2C3B2469393100470CA2 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2C3A2469393100470CA2 /* NewTaskView.swift */; };
+		D26B2C3D2469C77600470CA2 /* NewTaskViewer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2C3C2469C77600470CA2 /* NewTaskViewer2.swift */; };
 		D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD324662807005E16A3 /* AppDelegate.swift */; };
 		D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD524662807005E16A3 /* SceneDelegate.swift */; };
 		D2C26FD824662808005E16A3 /* CreateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD724662808005E16A3 /* CreateItem.swift */; };
@@ -62,6 +64,8 @@
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D26B2C38246934C900470CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D26B2C3A2469393100470CA2 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		D26B2C3C2469C77600470CA2 /* NewTaskViewer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewer2.swift; sourceTree = "<group>"; };
 		D2C26FD024662807005E16A3 /* FirebaseTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C26FD324662807005E16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD524662807005E16A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				D26B2C38246934C900470CA2 /* GoogleService-Info.plist */,
 				D2C26FD324662807005E16A3 /* AppDelegate.swift */,
 				D2C26FD524662807005E16A3 /* SceneDelegate.swift */,
+				D26B2C3A2469393100470CA2 /* NewTaskView.swift */,
+				D26B2C3C2469C77600470CA2 /* NewTaskViewer2.swift */,
 				D2C2705824662FDE005E16A3 /* Sample Views */,
 				D2C2703E24662C5A005E16A3 /* Networking */,
 				D2C2705324662CAA005E16A3 /* Models */,
@@ -430,9 +436,11 @@
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C2705E24663CFE005E16A3 /* SignIn.swift in Sources */,
+				D26B2C3B2469393100470CA2 /* NewTaskView.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
 				D26B2C2A246648E800470CA2 /* SignUp.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
+				D26B2C3D2469C77600470CA2 /* NewTaskViewer2.swift in Sources */,
 				D2C2705524662F2D005E16A3 /* ItemsList.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,

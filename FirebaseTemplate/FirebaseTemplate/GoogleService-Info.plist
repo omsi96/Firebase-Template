@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>304346583724-am78vu1iu0ss1hi9a06qvcmn880bmmg3.apps.googleusercontent.com</string>
+	<string>930902565956-t0q0lp9r4mj3eu95c8j8d1g0ancs1a2a.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.304346583724-am78vu1iu0ss1hi9a06qvcmn880bmmg3</string>
+	<string>com.googleusercontent.apps.930902565956-t0q0lp9r4mj3eu95c8j8d1g0ancs1a2a</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAwbyMUmOwcyaJq3G1htV0vYLdnpPS4SAE</string>
+	<string>AIzaSyDJ8KhKiAOhK_gpQUbU_6uf4Jkl1yjGTsw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>304346583724</string>
+	<string>930902565956</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.khatma.com</string>
+	<string>com.Omsi.FlyMeToTheMoon</string>
 	<key>PROJECT_ID</key>
-	<string>khatma-3e0cb</string>
+	<string>flymetothemoon-97142</string>
 	<key>STORAGE_BUCKET</key>
-	<string>khatma-3e0cb.appspot.com</string>
+	<string>flymetothemoon-97142.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:304346583724:ios:901404680d162d2c124509</string>
+	<string>1:930902565956:ios:0e00c31c60ddde0922c811</string>
 	<key>DATABASE_URL</key>
-	<string>https://khatma-3e0cb.firebaseio.com</string>
+	<string>https://flymetothemoon-97142.firebaseio.com</string>
 </dict>
 </plist>
