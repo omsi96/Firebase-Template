@@ -93,12 +93,19 @@ class Networking// : Networkable
     
     static func getSingleDocument<T: Codable>(_ DOCUMENT_PATH: String, success: @escaping(T)-> Void)
     {
+        getSingleDocument(DOCUMENT_PATH, success: success) { error in}
+    }
+
+    
+    static func getSingleDocument<T: Codable>(_ DOCUMENT_PATH: String, success: @escaping(T)-> Void, fail: @escaping(Error?)->Void)
+    {
         Firestore.firestore().document(DOCUMENT_PATH).getDocument { (snapshot, error) in
             if error == nil{
                 // there is no error
                 if snapshot != nil {
                     // There is data
                     guard let data =  snapshot?.data() else{
+                        fail(error)
                         print("🔥 no data was found for", DOCUMENT_PATH)
                         return
                     }
@@ -110,6 +117,7 @@ class Networking// : Networkable
                     }
                     catch{
                         DispatchQueue.main.async {
+                            fail(error)
                             print("🔥 Couldn't cast type \(T.self)\n", error)
                         }
                     }

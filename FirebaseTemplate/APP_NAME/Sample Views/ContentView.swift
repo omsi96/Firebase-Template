@@ -42,7 +42,15 @@ struct ContentView: View {
                         Text("Sign Up")
                     }
             }.tag(4)
-
+            
+            
+            ThekrView()
+                .tabItem {
+                    VStack{
+                        Image(systemName: "person.crop.circle.badge.plus")
+                        Text("Thekr")
+                    }
+            }.tag(5)
         }
     }
 }

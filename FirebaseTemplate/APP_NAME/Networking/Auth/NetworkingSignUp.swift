@@ -40,11 +40,6 @@ extension Networking{
             user.uid = uid
             DispatchQueue.main.async {
                 print("👱🏻‍♂️ User has been added to firebase successfully ...")
-                print("👱🏻‍♂️ User type is: \(user.userType  == "" ? "NOT SET" : user.userType)")
-                user.userType = user.userType == "" ? "users" : user.userType
-                print("👱🏻‍♂️ User will be added to collection: \(user.userType)")
-
-
                 Networking.createItem(user, inCollection: user.userType, withDocumentId: user.uid!) {
                     DispatchQueue.main.async {
                         UserDefaults.standard.set(true, forKey: "signedIn")

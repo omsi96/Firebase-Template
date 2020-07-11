@@ -34,7 +34,7 @@ struct CreateItem: View {
     func createItem()
     {
         let item = Item(name: self.name, price: Double(self.price)!)
-        Networking.createItem(item, inCollection: "myItems") {
+        Networking.createItem(item, inCollection: "omar") {
             self.itemCreated = true
         }
     }
