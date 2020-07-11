@@ -8,20 +8,20 @@ import FirebaseFirestore
 extension Networking//: NetworkableAuth
 {
     
-    static func getUserFromUid<USER: User>(userType: String, uid: String, completion: @escaping (USER)->())
+    static func getUserFromUid(userType: String, uid: String, completion: @escaping (User)->())
     {
         Firestore.firestore().collection(userType).document(uid).getDocument { (snapshot, error) in
             guard let snapshot = snapshot,
                 let _ = snapshot.data() else {return}
             
-            let decodedRegisterant = try! FirebaseDecoder().decode(USER.self, from: snapshot.data()!)
+            let decodedRegistrant = try! FirebaseDecoder().decode(User.self, from: snapshot.data()!)
             
-            completion(decodedRegisterant)
+            completion(decodedRegistrant)
         }
     }
     
     
-    static func signIn(userType: String, user: SignInCredentials, success: ((String) -> Void)? = nil, fail: ((Error?)->Void)? = nil)
+    static func signIn(user: SignInCredentials, success: ((String) -> Void)? = nil, fail: ((Error?)->Void)? = nil)
     {
         
         Auth.auth().signIn(withEmail: user.email, password: user.password) { (result, error) in
@@ -35,7 +35,7 @@ extension Networking//: NetworkableAuth
                 return
             }
             let uid = result.user.uid
-            let documentPath = userType + "/" + uid
+            let documentPath = "users/" + uid
             Firestore.firestore().document(documentPath).getDocument { (snapshot, error) in
                 guard let snapshot = snapshot, error == nil else{
                     fail?(error)
@@ -46,18 +46,10 @@ extension Networking//: NetworkableAuth
                     DispatchQueue.main.async {fail?(error)}
                     return
                 }
-                UserDefaults.standard.set(true, forKey: "signedIn")
-                UserDefaults.standard.set(result.user.uid, forKey: "uid")
-                UserDefaults.standard.set(userType, forKey: "userType")
                 DispatchQueue.main.async {success?(result.user.uid)}
             }
         }
-        
-        
     }
-    
-    
-    
     
     
     static func signOut(success: (()->Void)? = nil, fail: (()->Void)? = nil)

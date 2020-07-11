@@ -17,14 +17,13 @@ extension Networking{
         // user was created successfully, now store the first name and last name
         let db = Firestore.firestore()
         
-        let userData = ["imgeURL" : "usersImages/\(uid).jpg"
-        ]
+        let userData = ["imgeURL" : "usersImages/\(uid).jpg"]
         db.collection("users").document(uid).updateData(["imageURL" : userData] )
     }
     
     
     /// **This sign up funciton will work on all Users **
-    static func signUp<USER: User>(user: USER, password: String, success: ((String)->Void)? = nil, fail: (()->Void)? = nil)
+    static func signUp(user: User, password: String, success: ((String)->Void)? = nil, fail: (()->Void)? = nil)
     {
         print("👱🏻‍♂️ Creating user ...")
         Auth.auth().createUser(withEmail: user.email, password: password) { (result, error) in
@@ -34,21 +33,18 @@ extension Networking{
                 }
                 return
             }
+            print("👱🏻‍♂️ User has been created successfully ...")
             guard let result = result else {return}
             let uid = result.user.uid
-            var user = user
-            user.uid = uid
             DispatchQueue.main.async {
-                print("👱🏻‍♂️ User has been added to firebase successfully ...")
-                Networking.createItem(user, inCollection: user.userType, withDocumentId: user.uid!) {
+                print("👱🏻‍♂️ User has been added to DATABASE successfully ...")
+                Networking.createItem(user, inCollection: "users", withDocumentId: uid) {
                     DispatchQueue.main.async {
-                        UserDefaults.standard.set(true, forKey: "signedIn")
-                        UserDefaults.standard.set(user.userType, forKey: "userType")
-                        UserDefaults.standard.set(user.uid, forKey: "uid")
                         success?(uid)
                     }
                 }
             }
+            
         }
     }
 }
