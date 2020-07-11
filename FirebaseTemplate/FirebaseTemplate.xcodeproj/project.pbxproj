@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D209076024B9EA180069B920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209075F24B9EA180069B920 /* Main.storyboard */; };
-		D26B2C2A246648E800470CA2 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705B246639E9005E16A3 /* SignUp.swift */; };
 		D26B2C612469F2A200470CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */; };
-		D26B2C632469F7D800470CA2 /* ThekrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2C622469F7D800470CA2 /* ThekrView.swift */; };
 		D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD324662807005E16A3 /* AppDelegate.swift */; };
 		D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD524662807005E16A3 /* SceneDelegate.swift */; };
-		D2C26FD824662808005E16A3 /* CreateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD724662808005E16A3 /* CreateItem.swift */; };
 		D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FD924662809005E16A3 /* Assets.xcassets */; };
 		D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FDC24662809005E16A3 /* Preview Assets.xcassets */; };
 		D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FDE24662809005E16A3 /* LaunchScreen.storyboard */; };
@@ -40,7 +37,6 @@
 		D2C2703024662A79005E16A3 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C26FFB246628B8005E16A3 /* FirebaseStorage.framework */; };
 		D2C2703124662A79005E16A3 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C26FFC246628B8005E16A3 /* FirebaseCoreDiagnostics.framework */; };
 		D2C2703224662AB2005E16A3 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C26FEA246628B8005E16A3 /* Firebase.framework */; };
-		D2C2703424662BCE005E16A3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C2703324662BCD005E16A3 /* StoreKit.framework */; };
 		D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2703A24662C5A005E16A3 /* ImageLoader.swift */; };
 		D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2703B24662C5A005E16A3 /* ImageUploader.swift */; };
 		D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2703C24662C5A005E16A3 /* ValidatePassword.swift */; };
@@ -53,10 +49,7 @@
 		D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2704024662C5A005E16A3 /* NetowrkableAuth.swift */; };
 		D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2704124662C5A005E16A3 /* NetworkingSignUp.swift */; };
 		D2C2705224662C9A005E16A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705124662C9A005E16A3 /* User.swift */; };
-		D2C2705524662F2D005E16A3 /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705424662F2D005E16A3 /* ItemsList.swift */; };
 		D2C2705724662F3F005E16A3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705624662F3F005E16A3 /* Item.swift */; };
-		D2C2705A246631E2005E16A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C27059246631E2005E16A3 /* ContentView.swift */; };
-		D2C2705E24663CFE005E16A3 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705D24663CFE005E16A3 /* SignIn.swift */; };
 		F44A754633CD1CC597E156F9 /* Pods_FirebaseTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,11 +58,9 @@
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D209075F24B9EA180069B920 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D26B2C622469F7D800470CA2 /* ThekrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThekrView.swift; sourceTree = "<group>"; };
 		D2C26FD024662807005E16A3 /* FirebaseTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C26FD324662807005E16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD524662807005E16A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2C26FD724662808005E16A3 /* CreateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItem.swift; sourceTree = "<group>"; };
 		D2C26FD924662809005E16A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C26FDC24662809005E16A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2C26FDF24662809005E16A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,7 +88,6 @@
 		D2C26FFC246628B8005E16A3 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		D2C27012246628E0005E16A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D2C27014246628E5005E16A3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		D2C2703324662BCD005E16A3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D2C2703624662C5A005E16A3 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		D2C2703724662C5A005E16A3 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		D2C2703824662C5A005E16A3 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
@@ -110,11 +100,7 @@
 		D2C2704224662C5A005E16A3 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D2C2704324662C5A005E16A3 /* NetworkingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingImages.swift; sourceTree = "<group>"; };
 		D2C2705124662C9A005E16A3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D2C2705424662F2D005E16A3 /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
 		D2C2705624662F3F005E16A3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		D2C27059246631E2005E16A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D2C2705B246639E9005E16A3 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
-		D2C2705D24663CFE005E16A3 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C2703424662BCE005E16A3 /* StoreKit.framework in Frameworks */,
 				D2C2703224662AB2005E16A3 /* Firebase.framework in Frameworks */,
 				D2C2701E24662A79005E16A3 /* GoogleDataTransport.framework in Frameworks */,
 				D2C2702024662A79005E16A3 /* GoogleDataTransportCCTSupport.framework in Frameworks */,
@@ -157,7 +142,6 @@
 		0078FF453CA3B91DBEF9EC0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D2C2703324662BCD005E16A3 /* StoreKit.framework */,
 				D2C27014246628E5005E16A3 /* libc++.tbd */,
 				D2C27012246628E0005E16A3 /* libsqlite3.tbd */,
 				F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */,
@@ -178,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				D2C26FE7246628B8005E16A3 /* iOS */,
-				D2C26FD224662807005E16A3 /* APP_NAME */,
+				D2C26FD224662807005E16A3 /* FirebaseTemplate */,
 				D2C26FD124662807005E16A3 /* Products */,
 				8378283248B71B8695152817 /* Pods */,
 				0078FF453CA3B91DBEF9EC0F /* Frameworks */,
@@ -193,15 +177,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2C26FD224662807005E16A3 /* APP_NAME */ = {
+		D2C26FD224662807005E16A3 /* FirebaseTemplate */ = {
 			isa = PBXGroup;
 			children = (
 				D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */,
 				D2C26FD324662807005E16A3 /* AppDelegate.swift */,
 				D2C26FD524662807005E16A3 /* SceneDelegate.swift */,
-				D26B2C622469F7D800470CA2 /* ThekrView.swift */,
 				D209075F24B9EA180069B920 /* Main.storyboard */,
-				D2C2705824662FDE005E16A3 /* Sample Views */,
 				D2C2703E24662C5A005E16A3 /* Networking */,
 				D2C2705324662CAA005E16A3 /* Models */,
 				D2C26FD924662809005E16A3 /* Assets.xcassets */,
@@ -211,7 +193,7 @@
 				D2C2703924662C5A005E16A3 /* Helpers */,
 				D2C26FDB24662809005E16A3 /* Preview Content */,
 			);
-			path = APP_NAME;
+			path = FirebaseTemplate;
 			sourceTree = "<group>";
 		};
 		D2C26FDB24662809005E16A3 /* Preview Content */ = {
@@ -298,18 +280,6 @@
 				D2C2705624662F3F005E16A3 /* Item.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		D2C2705824662FDE005E16A3 /* Sample Views */ = {
-			isa = PBXGroup;
-			children = (
-				D2C27059246631E2005E16A3 /* ContentView.swift */,
-				D2C26FD724662808005E16A3 /* CreateItem.swift */,
-				D2C2705424662F2D005E16A3 /* ItemsList.swift */,
-				D2C2705D24663CFE005E16A3 /* SignIn.swift */,
-				D2C2705B246639E9005E16A3 /* SignUp.swift */,
-			);
-			path = "Sample Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,25 +400,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */,
-				D26B2C632469F7D800470CA2 /* ThekrView.swift in Sources */,
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */,
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
-				D2C2705E24663CFE005E16A3 /* SignIn.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
-				D26B2C2A246648E800470CA2 /* SignUp.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
-				D2C2705524662F2D005E16A3 /* ItemsList.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
 				D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */,
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
-				D2C2705A246631E2005E16A3 /* ContentView.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
-				D2C26FD824662808005E16A3 /* CreateItem.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"APP_NAME/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseTemplate/Preview Content\"";
 				DEVELOPMENT_TEAM = 9VCECTYT2E;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -619,7 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"APP_NAME/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseTemplate/Preview Content\"";
 				DEVELOPMENT_TEAM = 9VCECTYT2E;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
