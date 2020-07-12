@@ -35,7 +35,8 @@ class SignUpVC: UIViewController {
         let user = User(firstName: firstName,
                         lastName: lastName,
                         email: email,
-                        phoneNumber: phoneNumber)
+                        phoneNumber: phoneNumber,
+                        bloodType: "O+")
 
         if validatePassword(password: password, conformPassword: conformPassword){
             Networking.signUp(user: user, password: password, success:  { uid in

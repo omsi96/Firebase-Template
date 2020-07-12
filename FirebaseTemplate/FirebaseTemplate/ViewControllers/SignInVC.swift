@@ -24,6 +24,8 @@ class SignInVC: UIViewController {
         let email = emailField.text!
         let password = passwordField.text!
         
+        
+        
         Networking.signIn(user: SignInCredentials(email: email, password: password), success: { uid in
             // ✅ Success
             print("You have signed in successfully")

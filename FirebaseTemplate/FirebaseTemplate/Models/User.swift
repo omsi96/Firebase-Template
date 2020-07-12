@@ -10,6 +10,7 @@ struct User: Codable{
     var lastName: String = ""
     var email: String = ""
     var phoneNumber: String = ""
+    var bloodType: String = ""
     
     func fullName() -> String{
         firstName + " " + lastName

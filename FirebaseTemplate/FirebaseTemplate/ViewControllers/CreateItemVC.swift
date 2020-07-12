@@ -15,6 +15,14 @@ struct SOMETHING: Codable{
     var field2: String
     var field3: String
 }
+
+struct Ma3had: Codable{
+    var name: String
+    var instagramAccount: String
+    var government: String
+}
+
+
 class CreateItemVC: UIViewController {
 
     @IBOutlet var field1: UITextField!
@@ -33,15 +41,14 @@ class CreateItemVC: UIViewController {
         let f2 = field2.text!
         let f3 = field3.text!
         let collection = collectionField.text!
-        let object = SOMETHING(field1: f1, field2: f2, field3: f3)
+        let ma3had = Ma3had(name: f1, instagramAccount: f2, government: f3)
         
-        Networking.createItem(object, inCollection: collection, success: {
-            // ✅ Success
-            self.alert(title: "Success ✅", message: "item \(object) has been addedd successfully to firebase at: \(collection)")
-        }, fail: { error in
-            // ❌ Fail
-            self.alert(title: "Fail ❌", message: "")
-        })
+        Networking.createItem(ma3had, inCollection: "m3ahed", success: {
+            self.alert(title: "Whowooooo", message: "Ma3had \(ma3had) has been created!!!")
+        }) { error in
+            self.alert(title: "OPPPPPS", message: "Couldn't create this ma3had")
+        }
+        
     }
     
     func alert(title: String, message: String){

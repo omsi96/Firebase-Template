@@ -14,7 +14,7 @@ class ItemListVC: UITableViewController {
     
     // array of items has to be empty at first place
     
-    var items: [SOMETHING] = []
+    var items: [Ma3had] = []
     
     
     override func viewDidLoad() {
@@ -29,7 +29,7 @@ class ItemListVC: UITableViewController {
     // Call this function to reload items
     func loadItems(){
         let collection = collectionNameField.text!
-        Networking.getListOf(COLLECTION_NAME: collection) { (items: [SOMETHING]) in
+        Networking.getListOf(COLLECTION_NAME: collection) { (items: [Ma3had]) in
             self.items = items
             self.tableView.reloadData()
         }
@@ -52,7 +52,7 @@ class ItemListVC: UITableViewController {
 
         // Configure the cell...
         let item = items[indexPath.row]
-        cell.textLabel!.text = "\(item.field1) - \(item.field2) - \(item.field3)"
+        cell.textLabel!.text = "\(item.name) - \(item.instagramAccount) - \(item.government)"
         return cell
     }
     
